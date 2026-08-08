@@ -195,6 +195,7 @@ terraform apply
  <img width="1106" height="539" alt="Screenshot 2026-08-06 020334" src="https://github.com/user-attachments/assets/6730912b-5877-4652-a1de-fe441b82d8aa" />
   This screenshot shows the public and private subnets for A and B.
   <img width="1113" height="280" alt="Screenshot 2026-08-06 020552" src="https://github.com/user-attachments/assets/542b4545-1663-40b9-8cc9-c5a1cef4f1e2" />
+  
   ### Route Table for IGW
   The public route table for the internet gateway.
   <img width="932" height="210" alt="Screenshot 2026-08-06 020619" src="https://github.com/user-attachments/assets/3b6919e4-ab11-4a41-aea7-12d3e14a7905" />
