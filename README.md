@@ -213,6 +213,7 @@ terraform apply
  ### Security Groups
 The security group details for the Auto Load Balancer(ALB).
  <img width="921" height="535" alt="Screenshot 2026-08-06 022849" src="https://github.com/user-attachments/assets/6710b01a-1cf8-4e75-90cc-c7ba4d2e0e72" />
+ 
  The inbound rules for the Auto Load Balancer(ALB).
  <img width="915" height="461" alt="Screenshot 2026-08-06 022911" src="https://github.com/user-attachments/assets/15a20f58-3800-49f9-b36b-696b5f268557" />
  The outbound rules for the Auto Load Balancers(ALB).
