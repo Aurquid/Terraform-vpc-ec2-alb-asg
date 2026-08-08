@@ -3,36 +3,20 @@ This project mimics a production-style AWS environment utilizing Terraform.
 It includes a VPC, public/private subnets,EC2 launce template, Application Load Balancer, and Auto Scaling Group.
 The goal is to demonstrate real cloud engineering skills using infrastructure as code.
 
-# Table of Contents
-* Overview
+# 📘 Table of Contents
+- [Overview](#overview)
+- [Architecture Diagram](#architecture-diagram)
+- [Architecture Summary](#architecture-summary)
+- [Services Used](#services-used)
+- [Folder Structure](#folder-structure)
+- [Deployment](#deployment)
+- [IAM Least Privilege](#iam-least-privilege)
+- [Tradeoff Analysis](#tradeoff-analysis)
+- [Cost Breakdown](#cost-breakdown)
+- [Failure Scenario & Recovery Playbook](#failure-scenario--recovery-playbook)
+- [Lessons Learned](#lessons-learned)
+- [Screenshots](#screenshots)
 
-* Architecture Diagram
-
-* Architecture Summary
-
-* Services Used
-
-* Folder Structure
-
-* Deployment
-
-* Terraform Modules
-
-* IAM Least Privilege
-
-* Monitoring & Logging
-
-* Failure Scenario & Recovery Playbook
-
-* Tradeoff Analysis
-
-* Cost Breakdown
-
-* Business Impact
-
-* Lessons Learned
-
-* Screenshots
 
 # Architecture Diagram
 ![Terraform VPC EC2 ALB ASG](TFP1.drawio.png)
