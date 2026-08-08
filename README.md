@@ -4,18 +4,18 @@ It includes a VPC, public/private subnets,EC2 launce template, Application Load 
 The goal is to demonstrate real cloud engineering skills using infrastructure as code.
 
 # 📘 Table of Contents
-- [Overview](#overview)
-- [Architecture Diagram](#architecture-diagram)
-- [Architecture Summary](#architecture-summary)
-- [Services Used](#services-used)
-- [Folder Structure](#folder-structure)
-- [Deployment](#deployment)
-- [IAM Least Privilege](#iam-least-privilege)
-- [Tradeoff Analysis](#tradeoff-analysis)
-- [Cost Breakdown](#cost-breakdown)
-- [Failure Scenario & Recovery Playbook](#failure-scenario--recovery-playbook)
-- [Lessons Learned](#lessons-learned)
-- [Screenshots](#screenshots)
+* [Overview](#overview)
+* [Architecture Diagram](#architecture-diagram)
+* [Architecture Summary](#architecture-summary)
+* [Services Used](#services-used)
+* [Folder Structure](#folder-structure)
+* [Deployment](#deployment)
+* [IAM Least Privilege](#iam-least-privilege)
+* [Tradeoff Analysis](#tradeoff-analysis)
+* [Cost Breakdown](#cost-breakdown)
+* [Failure Scenario & Recovery Playbook](#failure-scenario--recovery-playbook)
+* [Lessons Learned](#lessons-learned)
+* [Screenshots](#screenshots)
 
 
 # Architecture Diagram
@@ -23,35 +23,27 @@ The goal is to demonstrate real cloud engineering skills using infrastructure as
 
 # Architecture Summary 
 * VPC with public + private subnets
+* Internet Gateway and NAT Gateway for connectivity
+* Route Tables for public and private routing
+* Security Groups for inbound/outbound control
+* Application Load Balancer to distribute traffic
+* Auto Scaling Group to scale EC2 instances
+* IAM Role for SSM access
+* EC2 Launch Template defining instance configuration
 
-* Internet Gateway
-
-* (Optional) VPC Endpoints instead of NAT Gateway
-
-* EC2 Launch Template
-
-* Application Load Balancer
-
-* Auto Scaling Group
-
-* Security Groups
-
-* IAM Roles
-
-* CloudWatch monitoring
 
 # Services Used
 * VPC
-
+* Subnets( Public and Private)
+* Internet Gateway(IGW)
+* Nat Gateway
+* Route Tables
+* Security Groups
 * EC2
-
-* ALB
-
-* Auto Scaling
-
-* IAM
-
-* CloudWatch
+* Application Load Balancer(ALB)
+* Auto Scaling Group(ASG)
+* IAM Role(SSM Access)
+  
   
 # Folder Structure
 Terraform
