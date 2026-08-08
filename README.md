@@ -216,6 +216,7 @@ The security group details for the Auto Load Balancer(ALB).
  
  The inbound rules for the Auto Load Balancer(ALB).
  <img width="915" height="461" alt="Screenshot 2026-08-06 022911" src="https://github.com/user-attachments/assets/15a20f58-3800-49f9-b36b-696b5f268557" />
+ 
  The outbound rules for the Auto Load Balancers(ALB).
  <img width="918" height="461" alt="Screenshot 2026-08-06 022929" src="https://github.com/user-attachments/assets/ac518532-5066-460b-86a9-5cb8a3117219" />
  Security group details for the instance 
