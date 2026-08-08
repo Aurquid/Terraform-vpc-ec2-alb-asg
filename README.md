@@ -199,7 +199,7 @@ terraform apply
   The public route table for the internet gateway.
   <img width="932" height="210" alt="Screenshot 2026-08-06 020619" src="https://github.com/user-attachments/assets/3b6919e4-ab11-4a41-aea7-12d3e14a7905" />
   ### Route Table for NAT Gateway
-  The private route table for the NAt gateway.
+  The private route table for the NAT gateway.
   <img width="919" height="224" alt="Screenshot 2026-08-06 020633" src="https://github.com/user-attachments/assets/41eb2cf4-f7ac-425c-bac8-8dee51f47ee4" />
   ### Internet Gateway
   The internet gateway connected to the VPC.
