@@ -191,7 +191,7 @@ terraform apply
  
   # Screenshots
   ### VPC and Subnets
-  This screenshot shows the AWS VPC Dashboard with all core networking resources created in the N. Virginia region.
+  This screenshot shows the AWS VPC Dashboard with all core networking resources created
  <img width="1106" height="539" alt="Screenshot 2026-08-06 020334" src="https://github.com/user-attachments/assets/6730912b-5877-4652-a1de-fe441b82d8aa" />
   This screenshot shows the public and private subnets for A and B.
   <img width="1113" height="280" alt="Screenshot 2026-08-06 020552" src="https://github.com/user-attachments/assets/542b4545-1663-40b9-8cc9-c5a1cef4f1e2" />
@@ -205,17 +205,17 @@ terraform apply
   ### Internet Gateway
   The internet gateway connected to the VPC.
   <img width="784" height="24" alt="Screenshot 2026-08-06 020727" src="https://github.com/user-attachments/assets/6fad54a7-0feb-42bd-8ddc-6a632a6beeb7" />
-  Internet gateway details 
+   The Internet gateway details. 
  <img width="1120" height="664" alt="Screenshot 2026-08-06 021138" src="https://github.com/user-attachments/assets/e089d849-77b7-4b30-a47d-8c87b0e3cac6" />
  ### NAT Gateway
- NAT Gateway details 
+ The NAT Gateway details.
  <img width="947" height="529" alt="Screenshot 2026-08-06 021418" src="https://github.com/user-attachments/assets/92b7c1fa-16f7-4a73-ac21-1f73150be64a" />
  ### Security Groups
- Security group details for the Auto Load Balancer(ALB)
+The security group details for the Auto Load Balancer(ALB).
  <img width="921" height="535" alt="Screenshot 2026-08-06 022849" src="https://github.com/user-attachments/assets/6710b01a-1cf8-4e75-90cc-c7ba4d2e0e72" />
- Inbound rules for the Auto Load Balancer(ALB)
+ The inbound rules for the Auto Load Balancer(ALB).
  <img width="915" height="461" alt="Screenshot 2026-08-06 022911" src="https://github.com/user-attachments/assets/15a20f58-3800-49f9-b36b-696b5f268557" />
- Outbound rules for the Auto Load Balancers(ALB)
+ The outbound rules for the Auto Load Balancers(ALB).
  <img width="918" height="461" alt="Screenshot 2026-08-06 022929" src="https://github.com/user-attachments/assets/ac518532-5066-460b-86a9-5cb8a3117219" />
  Security group details for the instance 
  <img width="910" height="469" alt="Screenshot 2026-08-06 023514" src="https://github.com/user-attachments/assets/72248230-340b-4ba4-b4e8-1cbfb7fbd617" />
