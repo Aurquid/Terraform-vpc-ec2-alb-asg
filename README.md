@@ -241,7 +241,7 @@ SSM JSON block
 <img width="876" height="505" alt="Screenshot 2026-08-06 025915" src="https://github.com/user-attachments/assets/5de02f0f-e77b-4604-aad9-e0fb0afb42cd" />
 ### Auto Scaling Group
 Auto Scaling Group(ASG) capacity configuration 
-<img width="922" height="498" alt="Screenshot 2026-08-06 030244" src="https://github.com/user-attachments/assets/2fd04f45-752f-4419-bca8-a9197b747337" />
+<img width="910" height="498" alt="Screenshot 2026-08-06 030244" src="https://github.com/user-attachments/assets/a64dcd54-21dc-43a3-b78a-78354ecea237" />
 Auto Scaling Group(ASG) overview
 <img width="472" height="285" alt="Screenshot 2026-08-06 030414" src="https://github.com/user-attachments/assets/01f9d7cc-f340-487f-b0ef-ab553d54f77c" />
 Auto Scaling Group(ASG) CPU metric 
