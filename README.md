@@ -35,7 +35,8 @@ The goal is to demonstrate real cloud engineering skills using infrastructure as
 * Screenshots
 
 # Architecture Diagram
-![Terraform VPC EC2 ALB ASG](architecture-diagram.png)
+![Terraform VPC EC2 ALB ASG](TFP1.drawio.png)
+
 # Architecture Summary 
 * VPC with public + private subnets
 
