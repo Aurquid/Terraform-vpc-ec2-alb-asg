@@ -45,97 +45,53 @@ The goal is to demonstrate real cloud engineering skills using infrastructure as
 * IAM Role(SSM Access)
   
   
-# Folder Structure
-Terraform
-/terraform-vpc-ec2-alb-asg
-   /modules
-      /vpc
-      /ec2
-      /alb
-      /asg
-   /diagrams
-   /python-automation
-   README.md
+##  Folder Structure
+TFP1/
+├── .terraform/                    
+├── .terraform.lock.hcl        
+├── main.tf                         
+├── modules.tf                     
+├── outputs.tf                      
+├── providers.tf                   
+├── terraform.tfstate          
+├── terraform.tfstate.1785875736.backup  
+├── terraform.tfstate.backup        
+├── variables.tf                    
+
    # Deployment
 terraform init
 terraform plan
 terraform apply
-# Terraform Modules
-### VPC Module
-* VPC
 
-* Subnets
-
-* Route tables
-
-* IGW
-
-* (Optional) VPC endpoints
-
-### EC2 Module
-* Launch template
-
-* Security group
-
-* IAM role
-
-* User data
-
- ### ALB Module
-  
-* Load balancer
-
-* Listener
-
-* Target group
-
-* Health checks
-
-### ASG Module
-
-* Auto Scaling Group
-
-* Scaling policies
-
-* ALB attachment
   # IAM Least Privilege
   * EC2 role with minimal permissions
  
-  * SSM Role ( optional)
+  * SSM Role 
  
   * No wildcard policies
  
   * Resource-scoped policies
  
-    # Monitoring and Logging
-    * Cloudwatch metrics
-   
-    * Cloudwatch alarms
-   
-    * ALB access logs
-   
-    * EC2 system logs
-
    # Failure Scenario and Recovery Playbook
   ### Scenario : ALB health checks fail
   ### Root Cause: Incorrect security group or user data
   ###  Recovery Steps:
   1. Validate SG inbound rules
   2. Check EC2 user data logs
-  3. Restart instand3 or redeploy
+  3. Restart instance or redeploy
   4. Confirm ALB target health
   ### Prevention:
   * Add automated validation
   * Add Cloudwatch alarms
- <details>
-<summary> Tradeoff Analysis</summary>
+ ##  Tradeoff Analysis
+This section explains the architectural decisions and their tradeoffs.
 
-- EC2 vs Lambda  
-- ALB vs NLB  
-- NAT Gateway vs VPC Endpoints  
-- t3.micro vs t4g.nano  
+* **EC2 vs Lambda:** EC2 chosen for persistent compute and predictable cost; Lambda offers serverless simplicity but higher per‑invocation pricing.  
+ * **ALB vs NLB:** ALB supports HTTP routing and health checks; NLB provides lower latency but lacks path‑based routing.  
+*  **NAT Gateway vs VPC Endpoints:** NAT Gateway enables outbound internet access for private subnets; endpoints are cheaper for internal AWS traffic only.  
+  * **t2.micro vs t2.nano:** t2.micro selected for better baseline performance and demo stability; t2.nano is cheaper but limited for multi‑instance scaling.
 
-</details>
+
 
 # Cost Breakdown 
 | Component | Cost | Notes |
@@ -155,7 +111,7 @@ terraform apply
 
 * Strong security posture
 
-  # Lessons Learned
+ # Lessons Learned
 
   * Importance of modular Terraform
  
