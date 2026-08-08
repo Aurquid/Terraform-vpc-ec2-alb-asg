@@ -250,17 +250,22 @@ Auto Scaling Group(ASG) CPU metric
 Instance summary
 <img width="947" height="535" alt="Screenshot 2026-08-06 031418" src="https://github.com/user-attachments/assets/f6a4bcae-e1c3-4d64-81ae-621c78a3ac7f" />
 Second instance summary
-<img width="925" height="519" alt="Screenshot 2026-08-06 031446" src="https://github.com/user-attachments/assets/6c114a39-1686-48b8-825d-67d00f7ec14e" />
+<img width="915" height="519" alt="Screenshot 2026-08-06 031446" src="https://github.com/user-attachments/assets/9dd4eb72-40a4-4532-aebb-c3fd8a73eae1" />
+
 ### Auto Load Balancer
 Auto load balancer details
 <img width="907" height="513" alt="Screenshot 2026-08-06 032303" src="https://github.com/user-attachments/assets/adb1c784-66a9-49a5-9396-d762741e2aa0" />
 Listener and rules
+
 <img width="931" height="526" alt="Screenshot 2026-08-06 032320" src="https://github.com/user-attachments/assets/f32cb11e-3ffc-460e-ad45-034c0fde9746" />
 Target groups details with health checks 
+
 <img width="907" height="532" alt="Screenshot 2026-08-06 032610" src="https://github.com/user-attachments/assets/3b61a6ff-9e3a-41ba-85ce-ee71337e6649" />
 Validation ALB DNS test
+
 <img width="485" height="179" alt="Screenshot 2026-08-06 032900" src="https://github.com/user-attachments/assets/406e2f15-82ed-4e39-9398-65a28bc869fc" />
 CloudShell validation test 
+
 <img width="352" height="175" alt="Screenshot 2026-08-06 033141" src="https://github.com/user-attachments/assets/1a6fda58-d36f-46f9-9111-fe773615d1a7" />
 ### Failure and Recovery
 Stopping instance
