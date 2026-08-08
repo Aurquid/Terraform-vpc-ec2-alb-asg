@@ -219,11 +219,15 @@ The security group details for the Auto Load Balancer(ALB).
  
  The outbound rules for the Auto Load Balancers(ALB).
  <img width="918" height="461" alt="Screenshot 2026-08-06 022929" src="https://github.com/user-attachments/assets/ac518532-5066-460b-86a9-5cb8a3117219" />
+ 
  Security group details for the instance 
  <img width="910" height="469" alt="Screenshot 2026-08-06 023514" src="https://github.com/user-attachments/assets/72248230-340b-4ba4-b4e8-1cbfb7fbd617" />
+ 
  Instance inbound rules
  <img width="929" height="467" alt="Screenshot 2026-08-06 023545" src="https://github.com/user-attachments/assets/a69d9bc3-212b-49fd-bba7-e71a15164e9a" />
+ 
 Instance outbound rules
+
 <img width="944" height="488" alt="Screenshot 2026-08-06 023620" src="https://github.com/user-attachments/assets/009cd1e1-b0d6-4b44-a624-90203c5eb0f6" />
 ### Launch Template
 Launch template details
