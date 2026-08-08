@@ -59,9 +59,9 @@ TFP1/
 ├── variables.tf                    
 
    # Deployment
-terraform init
-terraform plan
-terraform apply
+* terraform init
+* terraform plan
+* terraform apply
 
   # IAM Least Privilege
   * EC2 role with minimal permissions
