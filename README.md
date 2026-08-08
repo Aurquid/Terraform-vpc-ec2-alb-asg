@@ -236,7 +236,7 @@ Launch template details
 SSM role details
 <img width="862" height="310" alt="Screenshot 2026-08-06 025734" src="https://github.com/user-attachments/assets/26267c91-e98d-419f-80d5-ae2af21077de" />
 SSM role permissions
-<img width="923" height="488" alt="Screenshot 2026-08-06 025850" src="https://github.com/user-attachments/assets/72135980-e584-4985-b2fa-350e05f7bfa0" />
+<img width="908" height="488" alt="Screenshot 2026-08-06 025850" src="https://github.com/user-attachments/assets/4c518e59-ec4f-4cd3-b7de-5a627420817d" />
 SSM JSON block
 <img width="876" height="505" alt="Screenshot 2026-08-06 025915" src="https://github.com/user-attachments/assets/5de02f0f-e77b-4604-aad9-e0fb0afb42cd" />
 ### Auto Scaling Group
