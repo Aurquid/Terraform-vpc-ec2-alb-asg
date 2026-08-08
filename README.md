@@ -190,4 +190,7 @@ terraform apply
   * How to optimize cloud cost
  
   # Screenshots
+  ### VPC and Subnets
+ <img width="1106" height="539" alt="Screenshot 2026-08-06 020334" src="https://github.com/user-attachments/assets/6730912b-5877-4652-a1de-fe441b82d8aa" />
  
+
